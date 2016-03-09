@@ -1,0 +1,632 @@
+[
+  {
+    "city": "NYC",
+    "lat": 40.7127837,
+    "long": -74.0059413,
+    "state": "NY",
+    "date": "March",
+    "visit_order": 1,
+    "year": 1972
+  },
+  {
+    "city": "Greenwich",
+    "lat": 51.4825766,
+    "long": -0.0076589,
+    "state": "CT",
+    "date": "April",
+    "visit_order": 2,
+    "year": 1972
+  },
+  {
+    "city": "Baltimore",
+    "lat": 39.2903848,
+    "long": -76.6121893,
+    "state": "MD",
+    "date": "June",
+    "visit_order": 3,
+    "year": 1972
+  },
+  {
+    "city": "Fredericksburg",
+    "lat": 38.3031837,
+    "long": -77.4605399,
+    "state": "VA",
+    "date": "June",
+    "visit_order": 4,
+    "year": 1972
+  },
+  {
+    "city": "Richmond",
+    "lat": 37.5407246,
+    "long": -77.4360481,
+    "state": "VA",
+    "date": "June",
+    "visit_order": 5,
+    "year": 1972
+  },
+  {
+    "city": "Raleigh",
+    "lat": 35.7795897,
+    "long": -78.6381787,
+    "state": "NC",
+    "date": "June",
+    "visit_order": 6,
+    "year": 1972
+  },
+  {
+    "city": "Columbia",
+    "lat": 34.570868,
+    "long": -74.297333,
+    "state": "SC",
+    "date": "June",
+    "visit_order": 7,
+    "year": 1972
+  },
+  {
+    "city": "Aiken",
+    "lat": 33.5604168,
+    "long": -81.7195533,
+    "state": "SC",
+    "date": "June",
+    "visit_order": 8,
+    "year": 1972
+  },
+  {
+    "city": "Macon",
+    "lat": 32.8406946,
+    "long": -83.6324022,
+    "state": "GA",
+    "date": "June",
+    "visit_order": 9,
+    "year": 1972
+  },
+  {
+    "city": "Columbus",
+    "lat": 39.9611755,
+    "long": -82.9987942,
+    "state": "GA",
+    "date": "June",
+    "visit_order": 10,
+    "year": 1972
+  },
+  {
+    "city": "Montgomery",
+    "lat": 32.3668052,
+    "long": -86.2999689,
+    "state": "AL",
+    "date": "June",
+    "visit_order": 11,
+    "year": 1972
+  },
+  {
+    "city": "Selma",
+    "lat": 32.4073589,
+    "long": -87.0211007,
+    "state": "AL",
+    "date": "June",
+    "visit_order": 12,
+    "year": 1972
+  },
+  {
+    "city": "Meridian",
+    "lat": 32.3643098,
+    "long": -88.703656,
+    "state": "MS",
+    "date": "June",
+    "visit_order": 13,
+    "year": 1972
+  },
+  {
+    "city": "Marshall",
+    "lat": 34.3652297,
+    "long": -86.3376761,
+    "state": "TX",
+    "date": "June",
+    "visit_order": 14,
+    "year": 1972
+  },
+  {
+    "city": "Dallas",
+    "lat": 32.7766642,
+    "long": -96.7969879,
+    "state": "TX",
+    "date": "June",
+    "visit_order": 15,
+    "year": 1972
+  },
+  {
+    "city": "Mineral Wells",
+    "lat": 32.8084605,
+    "long": -98.1128223,
+    "state": "TX",
+    "date": "June",
+    "visit_order": 16,
+    "year": 1972
+  },
+  {
+    "city": "Lubbock",
+    "lat": 33.5778631,
+    "long": -101.8551665,
+    "state": "TX",
+    "date": "June",
+    "visit_order": 17,
+    "year": 1972
+  },
+  {
+    "city": "Clovis",
+    "lat": 34.4047987,
+    "long": -103.2052272,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 18,
+    "year": 1972
+  },
+  {
+    "city": "Santa Fe",
+    "lat": 35.6869752,
+    "long": -105.937799,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 19,
+    "year": 1972
+  },
+  {
+    "city": "Santa Rosa",
+    "lat": 38.440429,
+    "long": -122.7140548,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 20,
+    "year": 1972
+  },
+  {
+    "city": "Albuquerque",
+    "lat": 35.0853336,
+    "long": -106.6055534,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 21,
+    "year": 1972
+  },
+  {
+    "city": "Chimayo",
+    "lat": 36.0039131,
+    "long": -105.9469656,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 22,
+    "year": 1972
+  },
+  {
+    "city": "Cerrillos",
+    "lat": 33.5041325,
+    "long": -70.7108995,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 23,
+    "year": 1972
+  },
+  {
+    "city": "Pueblo Bonito",
+    "lat": 33.5784001,
+    "long": -111.8188508,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 24,
+    "year": 1972
+  },
+  {
+    "city": "Farmington",
+    "lat": 36.7280583,
+    "long": -108.2186856,
+    "state": "NM",
+    "date": "June",
+    "visit_order": 25,
+    "year": 1972
+  },
+  {
+    "city": "Mesa Verde",
+    "lat": 33.6058577,
+    "long": -114.7310717,
+    "state": "CO",
+    "date": "June",
+    "visit_order": 26,
+    "year": 1972
+  },
+  {
+    "city": "Durango",
+    "lat": 24.0277202,
+    "long": -104.6531759,
+    "state": "CO",
+    "date": "June",
+    "visit_order": 27,
+    "year": 1972
+  },
+  {
+    "city": "Kanab",
+    "lat": 37.0474855,
+    "long": -112.5263145,
+    "state": "UT",
+    "date": "June",
+    "visit_order": 28,
+    "year": 1972
+  },
+  {
+    "city": "Lake Powell",
+    "lat": 37.0682619,
+    "long": -111.2433108,
+    "state": "UT",
+    "date": "June",
+    "visit_order": 29,
+    "year": 1972
+  },
+  {
+    "city": "Grand Canyon",
+    "lat": 36.0544445,
+    "long": -112.1401108,
+    "state": "AZ",
+    "date": "June",
+    "visit_order": 30,
+    "year": 1972
+  },
+  {
+    "city": "Winslow",
+    "lat": 35.0241873,
+    "long": -110.6973571,
+    "state": "AZ",
+    "date": "June",
+    "visit_order": 31,
+    "year": 1972
+  },
+  {
+    "city": "Holbrook",
+    "lat": 35.7268382,
+    "long": -110.189128,
+    "state": "AZ",
+    "date": "June",
+    "visit_order": 32,
+    "year": 1972
+  },
+  {
+    "city": "Gallup",
+    "lat": 35.5280783,
+    "long": -108.7425843,
+    "state": "NM",
+    "date": "July",
+    "visit_order": 33,
+    "year": 1972
+  },
+  {
+    "city": "Tucumcari",
+    "lat": 35.171723,
+    "long": -103.7249662,
+    "state": "NM",
+    "date": "July",
+    "visit_order": 34,
+    "year": 1972
+  },
+  {
+    "city": "Amarillo",
+    "lat": 35.2219971,
+    "long": -101.8312969,
+    "state": "TX",
+    "date": "July",
+    "visit_order": 35,
+    "year": 1972
+  },
+  {
+    "city": "Alanreed",
+    "lat": 35.2125494,
+    "long": -100.7343059,
+    "state": "TX",
+    "date": "July",
+    "visit_order": 36,
+    "year": 1972
+  },
+  {
+    "city": "Shamrock",
+    "lat": 35.2142167,
+    "long": -100.2490075,
+    "state": "TX",
+    "date": "July",
+    "visit_order": 37,
+    "year": 1972
+  },
+  {
+    "city": "Granite",
+    "lat": 46.3374643,
+    "long": -113.4647823,
+    "state": "OK",
+    "date": "July",
+    "visit_order": 38,
+    "year": 1972
+  },
+  {
+    "city": "Clinton",
+    "lat": 42.5868882,
+    "long": -82.9195514,
+    "state": "OK",
+    "date": "July",
+    "visit_order": 39,
+    "year": 1972
+  },
+  {
+    "city": "Oklahoma City",
+    "lat": 35.4675602,
+    "long": -97.5164276,
+    "state": "OK",
+    "date": "July",
+    "visit_order": 40,
+    "year": 1972
+  },
+  {
+    "city": "Miami",
+    "lat": 36.8836,
+    "long": -94.8761,
+    "state": "OK",
+    "date": "July",
+    "visit_order": 41,
+    "year": 1972
+  },
+  {
+    "city": "Springfield",
+    "lat": 42.1014831,
+    "long": -72.589811,
+    "state": "MO",
+    "date": "July",
+    "visit_order": 42,
+    "year": 1972
+  },
+  {
+    "city": "Rolla",
+    "lat": 37.948544,
+    "long": -91.7715303,
+    "state": "MO",
+    "date": "July",
+    "visit_order": 43,
+    "year": 1972
+  },
+  {
+    "city": "St Louis",
+    "lat": 38.6270025,
+    "long": -90.1994042,
+    "state": "MO",
+    "date": "July",
+    "visit_order": 44,
+    "year": 1972
+  },
+  {
+    "city": "Springfield",
+    "lat": 42.1014831,
+    "long": -72.589811,
+    "state": "IL",
+    "date": "July",
+    "visit_order": 45,
+    "year": 1972
+  },
+  {
+    "city": "Normal",
+    "lat": 40.5142026,
+    "long": -88.9906312,
+    "state": "IL",
+    "date": "July",
+    "visit_order": 46,
+    "year": 1972
+  },
+  {
+    "city": "Chicago",
+    "lat": 41.8781136,
+    "long": -87.6297982,
+    "state": "IL",
+    "date": "July",
+    "visit_order": 47,
+    "year": 1972
+  },
+  {
+    "city": "Sandusky",
+    "lat": 41.4489396,
+    "long": -82.7079605,
+    "state": "OH",
+    "date": "July",
+    "visit_order": 48,
+    "year": 1972
+  },
+  {
+    "city": "Toledo",
+    "lat": 41.6639383,
+    "long": -83.555212,
+    "state": "OH",
+    "date": "July",
+    "visit_order": 49,
+    "year": 1972
+  },
+  {
+    "city": "Philadelphia",
+    "lat": 39.9525839,
+    "long": -75.1652215,
+    "state": "PA",
+    "date": "July",
+    "visit_order": 50,
+    "year": 1972
+  },
+  {
+    "city": "Sneden's Landing",
+    "lat": 41.0110028,
+    "long": -73.9039306,
+    "state": "NY",
+    "date": "July",
+    "visit_order": 51,
+    "year": 1972
+  },
+  {
+    "city": "Pontiac",
+    "lat": 42.6389216,
+    "long": -83.2910468,
+    "state": "MI",
+    "date": "July",
+    "visit_order": 52,
+    "year": 1972
+  },
+  {
+    "city": "Rochester",
+    "lat": 43.16103,
+    "long": -77.6109219,
+    "state": "MI",
+    "date": "July",
+    "visit_order": 53,
+    "year": 1972
+  },
+  {
+    "city": "Birmingham",
+    "lat": 33.5206608,
+    "long": -86.80249,
+    "state": "MI",
+    "date": "July",
+    "visit_order": 54,
+    "year": 1972
+  },
+  {
+    "city": "Washington DC",
+    "lat": 38.9071923,
+    "long": -77.0368707,
+    "state": "Washington",
+    "date": "August",
+    "visit_order": 55,
+    "year": 1972
+  },
+  {
+    "city": "Staten Island",
+    "lat": 40.5795317,
+    "long": -74.1502007,
+    "state": "NY",
+    "date": "August",
+    "visit_order": 56,
+    "year": 1972
+  },
+  {
+    "city": "Dayton",
+    "lat": 39.7589478,
+    "long": -84.1916069,
+    "state": "OH",
+    "date": "August",
+    "visit_order": 57,
+    "year": 1972
+  },
+  {
+    "city": "Petersburg",
+    "lat": 42.7683,
+    "long": -73.3433,
+    "state": "NY",
+    "date": "August",
+    "visit_order": 58,
+    "year": 1972
+  },
+  {
+    "city": "Westport",
+    "lat": 41.1414717,
+    "long": -73.3579049,
+    "state": "CT",
+    "date": "September",
+    "visit_order": 59,
+    "year": 1972
+  },
+  {
+    "city": "St John",
+    "lat": 47.5605413,
+    "long": -52.7128315,
+    "state": "US Virgin Islands",
+    "date": "November",
+    "visit_order": 60,
+    "year": 1972
+  },
+  {
+    "city": "West Palm Beach",
+    "lat": 26.7153424,
+    "long": -80.0533746,
+    "state": "FL",
+    "date": "December",
+    "visit_order": 61,
+    "year": 1972
+  },
+  {
+    "city": "London",
+    "lat": 51.5073509,
+    "long": -0.1277583,
+    "state": "England",
+    "date": "December",
+    "visit_order": 62,
+    "year": 1972
+  },
+  {
+    "city": "Palm Beach",
+    "lat": 26.7056206,
+    "long": -80.0364297,
+    "state": "FL",
+    "date": "January",
+    "visit_order": 63,
+    "year": 1973
+  },
+  {
+    "city": "Jacksonville",
+    "lat": 30.3321838,
+    "long": -81.655651,
+    "state": "FL",
+    "date": "January",
+    "visit_order": 64,
+    "year": 1973
+  },
+  {
+    "city": "Jacksonville",
+    "lat": 34.7597,
+    "long": -77.4097,
+    "state": "NC",
+    "date": "January",
+    "visit_order": 65,
+    "year": 1973
+  },
+  {
+    "city": "New bern",
+    "lat": 35.108493,
+    "long": -77.0441143,
+    "state": "NC",
+    "date": "January",
+    "visit_order": 66,
+    "year": 1973
+  },
+  {
+    "city": "Cape may",
+    "lat": 38.9351125,
+    "long": -74.9060053,
+    "state": "NJ",
+    "date": "January",
+    "visit_order": 67,
+    "year": 1973
+  },
+  {
+    "city": "Delray Beach",
+    "lat": 26.4614625,
+    "long": -80.0728201,
+    "state": "FL",
+    "date": "March",
+    "visit_order": 68,
+    "year": 1973
+  },
+  {
+    "city": "Cape Kennedy",
+    "lat": 28.3922182,
+    "long": -80.6077132,
+    "state": "FL",
+    "date": "April",
+    "visit_order": 69,
+    "year": 1973
+  },
+  {
+    "city": "Memphis",
+    "lat": 35.1495343,
+    "long": -90.0489801,
+    "state": "TN",
+    "date": "December",
+    "visit_order": 70,
+    "year": 1973
+  }
+]

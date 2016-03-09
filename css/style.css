@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+#map {
+    width: 70%;
+}
+
+#map h1 {
+    z-index: 999;
+    position: absolute;
+    padding-left: 30%;
+    font-family: 'Roboto Slab';
+}
+
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 30%;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+.breakpoint-current {
+    left: 0;
+    margin-top: -10px;
+    position: fixed;
+   /* top: 33.3333%; */
+    width: 10px;
+    height: 2px;
+    background: #c0c0c0;
+}
+
+

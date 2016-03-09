@@ -1,0 +1,478 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    font-weight: 300;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+    border-color: #ff9900;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.fa-bars {
+    color: #ff9900;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 100;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #ff9900;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header h1 {
+    color: #ff9900;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+}
+
+/* About */
+
+.about {
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.about-info p {
+    text-align: center;
+}
+
+.about-info {
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+.about a {
+    color: #ff9900;
+}
+
+.about span.orange-bold {
+    font-weight: bold;
+    color: #ff9900;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+    background-color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.services h2 {
+    color: #ff9900;
+    font-weight: 700;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.7) 100%), url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.callout a {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.2em
+}
+
+.callout a:hover {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+
+/* MAP STORY */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 998;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+
+#map {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+#map h1 {
+    z-index: 999;
+    top: 0;
+    padding-left: 30%;
+    font-family: 'Roboto Slab';
+    text-align: left;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.main {
+    padding: 5%;
+    padding-bottom: 500px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main section h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main section p {
+  font-size: 12px;
+}
+
+.main section img {
+    width: 100%;
+}
+
+.dates {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 30%;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.breakpoint-current {
+    left: 0;
+    margin-top: -10px;
+    position: fixed;
+   /* top: 33.3333%; */
+    width: 10px;
+    height: 2px;
+    background: #c0c0c0;
+}
+
+
+
+/*MEDIA QUERIES!*/
+@media only screen and (max-width: 960px) {
+  .toggle {
+      margin: -3px 0px 0 0;
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+#map {
+    width: 70%;
+}
+
+#map h1 {
+    z-index: 999;
+    position: absolute;
+    padding-left: 30%;
+    font-family: 'Roboto Slab';
+}
+
+.main {
+    padding: 20px;
+  
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 30%;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+.breakpoint-current {
+    left: 0;
+    margin-top: -10px;
+    position: fixed;
+   /* top: 33.3333%; */
+    width: 10px;
+    height: 2px;
+    background: #c0c0c0;
+}
+
+/*LEAFLET PROPS*/
+.leaflet-popup-content {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+
+
+

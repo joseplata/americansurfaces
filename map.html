@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>American Surfaces</title>
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,900,300' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stylish-portfolio.css">    
+
+    <!-- angularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+</head>
+<body ng-app='myApp'>
+
+ <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Navigation</a>
+            </li>
+            <li>
+                <a href="index.html" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="map.html" onclick = $("#menu-close").click(); >Map</a>
+            </li>
+             <li>
+                <a href="about.html" onclick = $("#menu-close").click(); >About</a>
+            </li>
+        </ul>
+    </nav>
+ <!-- map -->
+<div id="map" class="col-sm-3 col-md-5 sidebar">
+</div>
+
+<div class="container-fluid"  ng-controller="AmericanSurfaces">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 main">
+            <h1 class="page-header">AMERICAN SURFACES</h1>
+            <h3>The trip</h3>
+            <br>
+
+            <section data-place="overview">
+                <p>American Surfaces is a photographic version of a road movie, and in that tradition it has at times a downbeat mood: its director/protagonist is often drawn to the bleak and the mundane. Frequently nothing seems to be happening, or something wholly unremarkable has been recorded. And yet there is tremendous beauty here—beauty found where it's least expected—as well as humor and pathos. American Surfaces is a meditation on what it means to be in the world, on what it means to point a camera in one direction rather than another, and no matter what is being recorded its subject is always photography itself</p>
+                <p>Like any road movie, there is a potentially endless cast of characters. The man behind the counter in the pawn shop in Farmington, New Mexico, who may well have stood there every day for the past forty years. The boys at the gas station in Selma, Alabama: one younger, white and blond, looking directly towards the camera; the other, older and black, eyes cast down. A photograph of a drifter in the bus station in Oklahoma City, Oklahoma is considered by some to be one of the most moving portraits in all of 1970s color photography. These are real people living their lives in a place and time that was already in a sense passing. Here, then, is American Surfaces' larger sociological subject. The urban and commercial sprawl of the mid-to-late 1970s/early 1980s, which paralleled the rise of the tourist economy, would threaten to envelop America in a dulling sameness, depriving much of the country of its distinct character and its people their sense of place. This is, in part, what Shore hoped to, and did, capture.</p>
+            </section>
+            <br>
+            <h1 class="page-header">TIMELINE</h1>            
+            <h3><span class="dates">March, 1972</span></h3>            
+            <hr>
+                <section data-place="NYC">
+                    <img src="http://im.ft-static.com/content/images/b13a1c90-0561-4699-91df-d7a074bae0f5.img" alt="ny">
+                    <h2>New york, NY</h2>
+                    <p>March, 1972</p>
+                </section>
+
+                <h3><span class="dates">April, 1972</span></h3>            
+                <hr>
+
+                <section data-place="greenwich">
+                    <img src="http://stephenshore.net/photographs/seven/2.jpg" alt="">
+                    <h2>Greenwich, CT</h2>
+                    <p>April, 1972</p>
+                </section>  
+
+                <h3><span class="dates">June, 1972</span></h3>            
+                 <hr>
+
+                <section data-place="baltimore">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_baltimore-maryland.jpg" alt="">
+                    <h2>Baltimore, MD</h2>
+                    <p>June, 1972</p>
+                </section> 
+
+                <section data-place="fredericksburg">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_fredericksburg-virginia.jpg" alt="">
+                    <h2>Fredericksburg, VA</h2>
+                    <p>June, 1972</p>
+                </section> 
+
+                <section data-place="richmond">
+                    <img src="http://www.303gallery.com/img/SS/SS-627.jpg" alt="">
+                    <h2>Richmond, VA</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="raleigh">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_raleigh-nc-ss-630-1.jpg" alt="">
+                    <h2>Raleigh, NC</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="columbia">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_columbia-sc-ss-633-1.jpg" alt="">
+                    <h2>Columbia, SC</h2>
+                    <p>June, 1972</p>
+                </section>   
+
+                 <section data-place="aiken">
+                    <img src="https://modernartnotespodcast.files.wordpress.com/2014/11/stephen-shore-aiken-south-carolina-june-1972.jpg" alt="">
+                    <h2>Aiken, SC</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="macon">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_macon-georgia-ss-327-1.jpg" alt="">
+                    <h2>Macon, GA</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="columbus">
+                    <h2>Columbus, GA</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="montgomery">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_montgomery-ala-ss-332-1.jpg" alt="">
+                    <h2>Montgomery, AL</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="selma">
+                    <img src="http://www.spruethmagers.com/bilder/works/shore_selma-alabama.jpg" alt="">
+                    <h2>Selma, AL</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="meridian">
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/08/11/15/081115e502cee8bcca326096927563c5.jpg" alt="">
+                    <h2>Meridian, MS</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="marshall">
+                    <img src="http://www.303gallery.com/img/SS/SS-336.jpg" alt="">
+                    <h2>Marshall, TX</h2>
+                    <p>June, 1972</p>
+                </section> 
+
+                <section data-place="dallas">
+                    <img src="http://www.303gallery.com/img/SS/SS-338.jpg" alt="">
+                    <h2>Dallas, TX</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="mineralWells">
+                    <img src="http://www.303gallery.com/img/SS/SS-339.jpg" alt="">
+                    <h2>Mineral Wells, TX</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="lubbock">
+                    <img src="http://40.media.tumblr.com/38ed03f462edf0c4ff0455e1fb9ce591/tumblr_mwwyq3L8e91qzqju7o1_1280.jpg" alt="">
+                    <h2>Lubbock, TX</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="clovis">
+                    <img src="http://www.co-berlin.org/sites/default/files/styles/headerbilder_postings/public/article/headerimages/shore_artikelbild_960x1440px.jpg?itok=MyX2dx4Z" alt="">
+                    <h2>Clovis, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="santaFe">
+                    <img src="http://theredlist.com/media/.cache/database/photography/history/street/stephen-shore/1468679918-057-stephen-shore-theredlist.jpg" alt="">
+                    <h2>Santa Fe, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="santaRosa">
+                    <img src="http://3.bp.blogspot.com/-SaWvlkYn2PQ/UHNLviiTKWI/AAAAAAAAOxk/4n_kkhKP5VU/s1600/6.jpg" alt="">
+                    <h2>Santa Rosa, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="albuquerque">
+                    <img src="https://modernartnotespodcast.files.wordpress.com/2014/11/albuquerque-new-mexico-june-1972.jpg" alt="">
+                    <h2>Albuquerque, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="chimayo">
+                    <img src="http://www.303gallery.com/img/SS/SS-352.jpg" alt="">
+                    <h2>Chimayo, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="cerrillos">
+                    <img src="http://www.303gallery.com/img/SS/SS-353.jpg" alt="">
+                    <h2>Cerrillos, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="puebloBonito">
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/cf/4c/55/cf4c559b36fe951aafe1763a89289a2c.jpg" alt="">
+                    <h2>Pueblo Bonito, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="farmington">
+                    <img src="http://dazedimg.dazedgroup.netdna-cdn.com/620/azure/dazed-prod/1050/7/1057720.jpg" alt="">
+                    <h2>Farmington, NM</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="mesaVerde">
+                    <img src="http://www.303gallery.com/img/SS/SS-374.jpg" alt="">
+                    <h2>Mesa Verde, CO</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="durango">
+                    <img src="http://urbanmilwaukee.com/wp-content/uploads/2011/06/shoredurangohaggerty.jpg" alt="">
+                    <h2>Durango, CO</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="kanab">
+                    <img src="http://www.303gallery.com/img/SS/SS-389.jpg" alt="">
+                    <h2>Kanab, UT</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="lakePowell">
+                    <img src="http://www.303gallery.com/img/SS/SS-391.jpg" alt="">
+                    <h2>Lake Powell, UT</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="grandCanyon">
+                    <img src="http://www.303gallery.com/img/SS/SS-392.jpg" alt="">
+                    <h2>Grand Canyon, AZ</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="winslow">
+                    <img src="http://www.303gallery.com/img/SS/SS-393.jpg" alt="">
+                    <h2>Winslow, AZ</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                <section data-place="holbrook">
+                    <img src="http://www.303gallery.com/img/SS/SS-6.jpg" alt="">
+                    <h2>Holbrook, AZ</h2>
+                    <p>June, 1972</p>
+                </section>
+
+                 <h3><span class="dates">July, 1972</span></h3>            
+                 <hr>
+
+                <section data-place="gallup">
+                    <img src="http://www.303gallery.com/img/SS/SS-400.jpg" alt="">
+                    <h2>Gallup, NM</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="tucumcari">
+                    <img src="http://www.303gallery.com/img/SS/SS-407.jpg" alt="">
+                    <h2>Tucumcari, NM</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="amarillo">
+                    <img src="http://www.303gallery.com/img/SS/SS-426.jpg" alt="">
+                    <h2>Amarillo, TX</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="alanreed">
+                    <img src="http://www.303gallery.com/img/SS/SS-430.jpg" alt="">
+                    <h2>Alanreed, TX</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="shamrock">
+                    <img src="http://www.303gallery.com/img/SS/SS-431.jpg" alt="">
+                    <h2>Shamrock, TX</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="granite">
+                    <img src="http://www.303gallery.com/img/SS/SS-042.jpg" alt="">
+                    <h2>Granite, OK</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="clinton">
+                    <img src="http://www.303gallery.com/img/SS/SS-441.jpg" alt="">
+                    <h2>Clinton, OK</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="oklahomaCity">
+                    <img src="http://www.303gallery.com/img/SS/SS-7.jpg" alt="">
+                    <h2>Oklahoma City, OK</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="miami">
+                    <img src="http://www.303gallery.com/img/SS/SS-451.jpg" alt="">
+                    <h2>Miami, OK</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="springfield">
+                    <img src="http://www.303gallery.com/img/SS/SS-453.jpg" alt="">
+                    <h2>Springfield, MO</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="rolla">
+                    <img src="http://www.303gallery.com/img/SS/SS-454.jpg" alt="">
+                    <h2>Rolla, MO</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="stLouis">
+                    <img src="http://www.303gallery.com/img/SS/SS-456.jpg" alt="">
+                    <h2>St. Louis, MO</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="springfield">
+                    <img src="http://www.303gallery.com/img/SS/SS-459.jpg" alt="">
+                    <h2>Springfield, IL</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="normal">
+                    <img src="http://www.303gallery.com/img/SS/SS-8.jpg" alt="">
+                    <h2>Normal, IL</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="chicago">
+                    <img src="http://www.303gallery.com/img/SS/SS-462.jpg" alt="">
+                    <h2>Chicago, IL</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="sandusky">
+                    <img src="http://www.303gallery.com/img/SS/SS-466.jpg" alt="">
+                    <h2>Sandusky, OH</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="toledo">
+                    <img src="http://www.303gallery.com/img/SS/SS-467.jpg" alt="">
+                    <h2>Toledo, OH</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="philadelphia">
+                    <img src="http://www.303gallery.com/img/SS/SS-475.jpg" alt="">
+                    <h2>Philadelphia, PA</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="snedensLanding">
+                    <img src="http://www.303gallery.com/img/SS/SS-592.jpg" alt="">
+                    <h2>Sneden's Landing, NY</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="pontiac">
+                    <img src="http://www.303gallery.com/img/SS/SS-480.jpg" alt="">
+                    <h2>Pontiac, MI</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="rochester">
+                    <img src="http://www.303gallery.com/img/SS/SS-482.jpg" alt="">
+                    <h2>Rochester, MI</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <section data-place="birmingham">
+                    <img src="http://www.303gallery.com/img/SS/SS-484.jpg" alt="">
+                    <h2>Birmingham, MI</h2>
+                    <p>July, 1972</p>
+                </section>
+
+                <h3><span class="dates">August, 1972</span></h3>            
+                 <hr>
+
+                 <section data-place="washington">
+                    <img src="http://www.303gallery.com/img/SS/SS-155.jpg" alt="">
+                     <h2>Washington DC, DC</h2>
+                     <p>August, 1972</p>
+                 </section>
+
+                 <section data-place="statenIsland">
+                    <img src="http://www.303gallery.com/img/SS/SS-487.jpg" alt="">
+                     <h2>Staten Island, NY</h2>
+                     <p>August, 1972</p>
+                 </section>
+
+                 <section data-place="dayton">
+                    <img src="http://www.303gallery.com/img/SS/SS-494.jpg" alt="">
+                     <h2>Dayton, OH</h2>
+                     <p>August, 1972</p>
+                 </section>
+
+                 <section data-place="petersburg">
+                     <img src="http://www.303gallery.com/img/SS/SS-497.jpg" alt="">
+                     <h2>Petersburg, NY</h2>
+                     <p>August, 1972</p>
+                 </section>
+
+                  <h3><span class="dates">September, 1972</span></h3>            
+                 <hr>
+
+                 <section data-place="westport">
+                     <img src="http://www.303gallery.com/img/SS/SS-500.jpg" alt="">
+                     <h2>Westport, CT</h2>
+                     <p>September, 1972</p>
+                 </section>
+
+                 <h3><span class="dates">November, 1972</span></h3>            
+                 <hr>
+
+                 <section data-place="stJohn">
+                    <img src="http://www.303gallery.com/img/SS/SS-539.jpg" alt="">
+                     <h2>St. John, US Virgin Islands</h2>
+                     <p>November, 1972</p>
+                 </section>
+
+                 <h3><span class="dates">December, 1972</span></h3>            
+                 <hr>
+
+                 <section data-place="westPalmBeach">
+                    <img src="http://www.303gallery.com/img/SS/SS-39.jpg" alt="">
+                     <h2>West Palm Beach, FL</h2>
+                     <p>December, 1972</p>
+                 </section>
+
+                 <section data-place="london">
+                    <img src="http://www.303gallery.com/img/SS/SS-549.jpg" alt="">
+                     <h2>London, England</h2>
+                     <p>December, 1972</p>
+                 </section>
+
+                   <h3><span class="dates">January, 1973</span></h3>            
+                 <hr>
+
+                 <section data-place="palmBeach">
+                     <img src="http://www.303gallery.com/img/SS/SS-612.jpg" alt="">
+                     <h2>Palm Beach, FL</h2>
+                     <p>January, 1973</p>
+                 </section>
+
+                 <section data-place="jacksonville">
+                    <img src="http://www.303gallery.com/img/SS/SS-573.jpg" alt="">
+                     <h2>Jacksonville, FL</h2>
+                     <p>January, 1973</p>
+                 </section>
+
+                 <section data-place="jacksonvilleNC">
+                    <img src="http://www.303gallery.com/img/SS/SS-575.jpg" alt="">
+                     <h2>Jacksonville, NC</h2>
+                     <p>January, 1973</p>
+                 </section>
+
+                 <section data-place="newBern">
+                    <img src="http://www.303gallery.com/img/SS/SS-14.jpg" alt="">
+                     <h2>New Bern, NC</h2>
+                     <p>January, 1973</p>
+                 </section>
+
+                 <section data-place="capeMay">
+                    <img src="http://www.303gallery.com/img/SS/SS-577.jpg" alt="">
+                     <h2>Cape May, NJ</h2>
+                     <p>January, 1973</p>
+                 </section>
+
+                  <h3><span class="dates">March, 1973</span></h3>            
+                 <hr>
+
+                 <section data-place="delrayBeach">
+                    <img src="http://www.303gallery.com/img/SS/SS-587.jpg" alt="">
+                     <h2>Delray Beach, FL</h2>
+                     <p>March, 1973</p>
+                 </section>
+                
+                 <h3><span class="dates">April, 1973</span></h3>            
+                <hr>
+
+                 <section data-place="capeKennedy">
+                    <img src="http://www.303gallery.com/img/SS/SS-596.jpg" alt="">
+                     <h2>Cape Kennedy, FL</h2>
+                     <p>April, 1973</p>
+                 </section>
+
+                 <h3><span class="dates">December, 1973</span></h3>            
+                <hr>
+
+                 <section data-place="memphis">
+                    <img src="http://www.303gallery.com/img/SS/SS-608.jpg" alt="">
+                     <h2>Memphis, TN</h2>
+                     <p>December, 1973</p>
+                 </section>
+
+
+                 <!-- <section ng-repeat="location in locations" data-place="{{location.city}}" >
+                    <h2>{{location.city + ", " + location.state}}</h2>
+                    <p>{{location.date + ", " + location.year}}</p>
+                </section> 
+ -->
+            </div>          
+        </div>
+    </div>
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/storymap.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Theme Script -->
+    <script src="js/script.js"></script>
+    <!-- d3 -->
+    <script src="lib/d3/d3.min.js"></script>
+    <!-- angular -->
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
