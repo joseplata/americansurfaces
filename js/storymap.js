@@ -16,32 +16,32 @@
                  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
                }).addTo(map);
 
-           //     $.getJSON('data/american_surfaces.geojson', function(data){
-           //          var data = data;
+               $.getJSON('data/american_surfaces.geojson', function(data){
+                    var data = data;
 
-           //          var locationMarkers = function(feature, latlng){
-           //                var geojsonMarkerOptions = L.marker(latlng,  {
-           //                    radius: 8,
-           //                    stroke: false,
-           //                    fillColor: "#ff7800",
-           //                    color: "#000",
-           //                    opacity: 1,
-           //                    fillOpacity: 0.6
-           //                  });
+                    var locationMarkers = function(feature, latlng){
+                          var geojsonMarkerOptions = L.marker(latlng,  {
+                              radius: 8,
+                              stroke: false,
+                              fillColor: "#ff7800",
+                              color: "#000",
+                              opacity: 1,
+                              fillOpacity: 0.6
+                            });
 
-           //                return geojsonMarkerOptions;
-           //          }
+                          return geojsonMarkerOptions;
+                    }
 
-           //          var locationClick = function (feature, layer) {
-           //              // let's bind some feature properties to a pop up
-           //              layer.bindPopup("<h2>" + feature.properties.city + ", " + feature.properties.state + "</h2>");
-           //          }
+                    var locationClick = function (feature, layer) {
+                        // let's bind some feature properties to a pop up
+                        layer.bindPopup("<h2>" + feature.properties.city + ", " + feature.properties.state + "</h2>");
+                    }
 
-           //          L.geoJson(data, {
-           //              pointToLayer: locationMarkers,
-           //              onEachFeature: locationClick
-           //        }).addTo(map);
-           // });
+                    L.geoJson(data, {
+                        pointToLayer: locationMarkers,
+                        onEachFeature: locationClick
+                  }).addTo(map);
+           });
                 return map;
             }
         };
