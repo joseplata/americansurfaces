@@ -16,7 +16,7 @@
                  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
                }).addTo(map);
 
-               $.getJSON('data/american_surfaces.geojson', function(data){
+               $.getJSON('data/american_surfaces_2.geojson', function(data){
                     var data = data;
 
                     var locationMarkers = function(feature, latlng){
